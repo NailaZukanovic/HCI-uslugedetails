@@ -100,7 +100,7 @@ const styles = StyleSheet.create({
   inputView: {
     backgroundColor: '#FFC0CB',
     borderRadius: 25,
-    height: 45,
+    height: 25,
     width: "60%",
     marginBottom: 15,
     alignItems: 'center',
@@ -108,8 +108,7 @@ const styles = StyleSheet.create({
   },
   TextInput: {
     flex: 1,
-    height: 50,
-    marginBottom: 20
+    height: 25
   },
   registerButton: {
     height: 30

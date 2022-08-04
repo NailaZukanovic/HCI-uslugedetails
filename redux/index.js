@@ -1,7 +1,7 @@
-import { configureStore, combineReducers } from "redux";
+// import { configureStore, combineReducers } from "redux";
 
-const RootReducer = combineReducers({
+// const RootReducer = combineReducers({
 
-});
+// });
 
-export const store = configureStore(RootReducer);
+// export const store = configureStore(RootReducer);

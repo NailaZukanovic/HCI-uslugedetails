@@ -4,8 +4,12 @@ import Icon from 'react-native-vector-icons/MaterialIcons';
 import Favourite from '../components/Favourite';
 // import {products} from '../components/products';
 import Products from '../components/products';
+
+
 const width = Dimensions.get("screen").width / 2 - 25;
-const Home = ({navigation}) => {
+
+
+const Services = ({navigation}) => {
   const {productc} = Products();
 
  const Box = ({product}) => {
@@ -93,4 +97,4 @@ const styles = StyleSheet.create({
   }
 
 })
-export default Home;
+export default Services;

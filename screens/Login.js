@@ -1,5 +1,6 @@
 import React from 'react';
-import { StyleSheet, View, Text, TextInput, Image , TouchableOpacity} from 'react-native';
+import { StyleSheet, View, Text, TextInput, Image , TouchableOpacity, KeyboardAvoidingView} from 'react-native';
+
 export default Login = ({navigation}) => {
 
   return(
@@ -54,8 +55,7 @@ const styles = StyleSheet.create({
   },
   TextInput: {
     flex: 1,
-    height: 50,
-    marginBottom: 20
+    height: 50
   },
   registerButton: {
     height: 30

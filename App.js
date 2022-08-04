@@ -6,17 +6,19 @@ import Login from './screens/Login';
 import 'react-native-gesture-handler';
 import Register from './screens/Register';
 import Home from './screens/Home';
-import { Provider } from 'react';
-import { store } from './redux';
+import ProductDetails from './screens/ProductDetails';
+// import { Provider } from 'react';
+// import { store } from './redux';
 
 const StackNavigator = () => {
   const Stack = createStackNavigator();
 
   return (    
     <Stack.Navigator screenOptions={{header: ()=> null}}>
-      {/* <Stack.Screen name="Login" component={Login}/>
-      <Stack.Screen name="Register" component={Register}/> */}
+      {/* <Stack.Screen name="Login" component={Login}/> */}
+      {/* <Stack.Screen name="Register" component={Register}/> */}
       <Stack.Screen name="Home" component={Home}/>
+      <Stack.Screen name="ProductDetails" component={ProductDetails} />
     </Stack.Navigator>
   )
 }
@@ -30,9 +32,9 @@ const RootNavigation = () => {
 }
 export default function App() {
   return (
-    <Provider store={store}>
+    // <Provider store={store}>
     <RootNavigation />
-    </Provider>
+    // </Provider>
   );
 }
 
